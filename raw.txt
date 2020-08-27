@@ -1,0 +1,97 @@
+clone from this
+http://theappsmiths.net/development/DVC/listings
+/Modal example
+https://www.youtube.com/watch?v=SpyVEbFQ6Bc
+
+added 23-aug-2020 : ion.rangeSlider.js
+                    pen.js
+
+<div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6">
+                                            <div class="toggle-group">
+                                                <input type="checkbox" name="on-off-switch" id="on-off-switch" checked="" tabindex="1">
+                                                <label for="on-off-switch">
+                                                    <span class="aural">Show:</span>
+                                                </label>
+                                                <div class="onoffswitch pull-right" aria-hidden="true">
+                                                    <div class="onoffswitch-label">
+                                                        <div class="onoffswitch-inner"></div>
+                                                        <div class="onoffswitch-switch"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <div class="refresh-btn text-center">
+                                                <button type="button" class="btn"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+...
+<span id="advanceF" style="">
+							    <div class="form-group">
+                                    <label>Price / Point</label>
+                                    <ul class="nav-categories ul-base">
+                                        <li>
+                                            <span class="irs js-irs-1 irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: hidden;">1</span><span class="irs-max" style="visibility: hidden;">450</span><span class="irs-from" style="visibility: visible; left: -0.551723%;">1</span><span class="irs-to" style="visibility: visible; left: 87.7518%;">450</span><span class="irs-single" style="visibility: hidden; left: 36.0966%;">1 � 450</span></span><span class="irs-grid" style="width: 92.0552%; left: 3.87241%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: 0%;">1</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: 0%;">113</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: 0%;">226</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: 0%;">338</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: 0%;">450</span></span><span class="irs-bar" style="left: 3.97241%; width: 92.0552%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 0%;"></span><span class="irs-slider to" style="left: 92.0552%;"></span></span><input type="text" id="range-1" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                                        </li>
+                                    </ul>
+							    </div>
+							    <div class="form-group">
+                                    <label>Contract Price</label>
+                                    <ul class="nav-categories ul-base">
+                                        <li>
+                                            <span class="irs js-irs-2 irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: hidden;">2</span><span class="irs-max" style="visibility: hidden;">100 000</span><span class="irs-from" style="visibility: visible; left: -0.551723%;">2</span><span class="irs-to" style="visibility: visible; left: 81.0759%;">100 000</span><span class="irs-single" style="visibility: hidden; left: 32.7587%;">2 � 100 000</span></span><span class="irs-grid" style="width: 92.0552%; left: 3.87241%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: 0%;">2</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: 0%;">25 002</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: 0%;">50 001</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: 0%;">75 001</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: 0%;">100 000</span></span><span class="irs-bar" style="left: 3.97241%; width: 92.0552%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 0%;"></span><span class="irs-slider to" style="left: 92.0552%;"></span></span><input type="text" id="range-2" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                                        </li>
+                                    </ul>
+							    </div>
+							    </span>
+
+
+                  ...
+
+
+    .irs-bar {
+        height: 25px;
+        top: 10px;
+        background-position: 0 -65px;
+        background: #0f4173 !important;
+        }
+
+    line 5092    .irs-line {
+            height: 20px;
+            top: 20px;
+            background: #adadad;
+        }
+    line 1551    .toggle-group label {
+          position: absolute;
+          cursor: pointer;
+          padding-left: 0px;
+          display: inline-block;
+          text-align: left;
+          line-height: 24px;
+          width: 70%; //change 100% to 70
+          z-index: 1;
+          height: 24px;
+          font-weight: 200;
+        }
+
+        //ajax modal getData on action btns
+
+        function getData(id){
+        event.preventDefault();
+        $.ajax({
+            url:"http://theappsmiths.net/development/DVC/listings/getListData",
+            type:"GET",
+            data:{'id':id,'_method': 'PUT',"_token": "ePC9QvejGxgxxsuRgeTzDNLaMPFYYMTBrWIIKRGe"},
+            success:function(response){
+                console.log(response);
+                $("#popupListData").html(response);
+                $("#myModal").modal('show');
+            }
+        })
+    }
